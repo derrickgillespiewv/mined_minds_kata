@@ -1,2 +1,8 @@
-[*1..10]. each { |i| print i}
-print [*1..100]
+	x=0
+	while x<100
+	x+=1
+    if x == 3 
+    	p "mined"
+    else p  x
+end
+end
