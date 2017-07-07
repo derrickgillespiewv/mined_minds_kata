@@ -18,4 +18,15 @@ class TestMinedMinds < Minitest::Test
 		assert_equal("mined", mined(3))
 	end
 
+	def test_6_returns_mined
+		assert_equal("mined", mined(6))
+	end
+
+	def test_5_return_minds
+		assert_equal("minds", mined(5))
+	end
+
+	def test_10_return_minds
+		assert_equal("minds", mined(10))
+	end
 end
